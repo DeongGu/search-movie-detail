@@ -28,10 +28,12 @@ export default function PageContents() {
   }, []);
 
   return (
-    <>
-      {movieList.map((movie, idx) => (
-        <Card key={idx} data={movie} />
-      ))}
-    </>
+    <section className="max-w-7xl mx-auto py-7">
+      <div className="flex">
+        {movieList.map((movie, idx) => (
+          <Card key={idx} data={movie} />
+        ))}
+      </div>
+    </section>
   );
 }
