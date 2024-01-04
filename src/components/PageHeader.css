@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header nav ul li {
+  font-size: 10px;
+}
